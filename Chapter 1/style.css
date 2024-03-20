@@ -1,0 +1,37 @@
+/*Color changes the font color.
+    Font changed to sans-serif.
+    Font size to 350%.
+    Font weight changes the thickness of the heading.
+    Border adds border to the whole code.
+    Padding adds padding inside the border.
+    Margin used to add margin outside the border.*/
+
+h1 {
+  color:black;
+  font-family: sans-serif;
+  font-size: 350%;
+  font-weight: 900;
+}
+
+h2 {
+  color: red;
+  font-family: sans-serif;
+  font-size: 200%;
+  font-weight: 700;
+}
+
+
+ul {
+  margin-bottom: 50px;
+}
+
+ol {
+  margin-bottom: 50px;
+}
+
+div {
+  width: 900px;
+  border: 15px solid gray;
+  padding: 50px;
+  margin: 20px;
+}

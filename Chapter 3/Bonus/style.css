@@ -1,0 +1,41 @@
+/*Box shadows, outline, and text shadows are used to recreate the image from the exercise.*/
+
+div {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 25px;
+  line-height: 100px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 225px;
+}
+
+#divA {
+  border: 4px solid #831de1;
+  box-shadow: 9px 9px 8px #ff494a;
+}
+
+#divB {
+  border: 4px solid #00ff00;
+  box-shadow: inset 9px 9px 8px black;
+}
+
+#divC {
+  border: 4px solid #ff8b00;
+  border-radius: 15px;
+  outline: 8px solid #0000fe;
+  box-shadow: 0 0 0 20px #fe0000, 0 0 0 30px #008001;
+}
+
+#divD {
+  border: 4px solid #b01e1e;
+  text-shadow: 5px 4px 1px black;
+}
+
+body {
+  margin: 100px auto;
+  width: max-content;
+}

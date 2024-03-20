@@ -1,0 +1,8 @@
+/*A simple CSS design is used to center the video.*/
+
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 950px;
+}

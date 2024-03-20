@@ -1,0 +1,60 @@
+/*Font used is calibri, and with the use of font-size the font size changes.
+  Background colors are used to change the color of the background.
+  Padding, margin, display, and position is used to change the composition.
+  Border and border-radius is used to add borders.
+  */
+
+body {
+  font-family: calibri;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  position: relative;
+  top: 200px;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="number"]:focus {
+  border-color: #0079fa;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #0079fa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0061c8;
+}
+
+#total {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 18px;
+}

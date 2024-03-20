@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css"> <!--Link to the css stylesheet-->
+  <title>Petrol Calculator</title>
+</head>
+<body>
+  <div class="box"> <!--<div> to contain all the items of code.-->
+    <h1>Petrol Calculator</h1> <!--<h1> for the title.-->
+    <form id="form"> <!--<form> is used to contain different types of input elements.-->
+      <label for="cost">Cost of petrol per liter:</label>
+      <input type="number" id="cost" step="0.01" value="1.72">
+      <label for="purchased">Number of liters purchased:</label>
+      <input type="number" id="purchased" step="0.01" value="0">
+      <input type="submit" value="Calculate">
+    </form>
+    <!--<label> element is for labeling the input with the for="" attribute.
+        <input> element is used for the input bar for the user.
+        type="" attribute is to specify the type of the of input.
+        step="" is to make it so that the increment of the number is +-0.01.
+        value="" is to establish the starting value in the input.-->
+    <p id="total"></p> <!--It is empty but will be filled once the code is executed in the javascript code.-->
+  </div>
+
+  <script src="index.js"></script> <!--Link to the Javascript.-->
+</body>
+</html>

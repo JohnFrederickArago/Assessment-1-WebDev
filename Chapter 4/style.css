@@ -1,0 +1,74 @@
+/*Font used is Arial, sans-serif.
+  Background colors are used to change the color of the background.
+  Padding, margin, display, and position is used to change the composition.*/
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  background-color: #17072b;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  position: relative;
+  padding: 20px;
+}
+
+#welcome {
+  position: relative;
+  margin-bottom: 20px;
+  padding-right: 1000px;
+  padding-top: 20px;
+}
+
+#lineup {
+  position: relative;
+  left: 1000px;
+  color: white;
+  bottom: 170px;
+  width: 853px;
+}
+
+#container {
+  background-color: #172d67;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#lineup img {
+  width: 100px; 
+  height: 100px; 
+  margin-right: 10px;
+}
+
+footer {
+  position: relative;
+  background-color: #8c15e9;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  bottom: 120px;
+}

@@ -1,0 +1,92 @@
+/*Background color to change the color of the background.
+  Font changed to arial and calibri.
+  Position and display elements are used.
+  Filter element is used to add design to the images.*/
+
+body {
+  background-color: #F7DED0;
+}
+
+h1 {
+  font-family: arial;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 180px;
+}
+
+.photoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 180px;
+}
+
+#first {
+  filter: blur(1px);
+}
+
+#second {
+  filter: sepia(50%);
+}
+
+#third {
+  filter: grayscale(70%);
+}
+
+#photo1 {
+  border: 7px solid #E2BFB3;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 20px;
+}
+
+#photo2 {
+  border: 7px solid #E2BFB3;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 20px;
+}
+
+#photo3 {
+  border: 7px solid #E2BFB3;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 20px;
+}
+
+.licenseContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 160px;
+  font-family: calibri;
+}
+
+p {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 160px;
+  font-family: calibri;
+  
+}
+
+#copy1 {
+  position: relative;
+  left: 480px;
+}
+
+#copy2 {
+  position: relative;
+  left: 680px;
+}
+
+#copy3 {
+  position: relative;
+  left: 880px;
+}
